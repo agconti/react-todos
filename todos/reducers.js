@@ -12,7 +12,7 @@ export function todo(state={}, action) {
       }
       return state
     default:
-      return
+      return state
   }
 }
 
