@@ -1,5 +1,5 @@
-# Redux Playground
-A testing ground for redux apps.
+# React Todos
+The classic todo app with react and redux.
 
 # Prerequisites:
 

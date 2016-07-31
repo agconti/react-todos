@@ -1,5 +1,5 @@
 'use strict'
-import React from 'react'
+import React, { PropTypes } from 'react'
 
 export function Link ({active, children, onClick}) {
   if (active) {
@@ -9,4 +9,10 @@ export function Link ({active, children, onClick}) {
     e.preventDefault()
     onClick()
   }}>{children}</a>
+}
+
+Link.propTypes = {
+  active: PropTypes.bool.isRequired
+, children: PropTypes.node.isRequired
+, onClick: PropTypes.func.isRequired
 }
